@@ -1,0 +1,85 @@
+/*背景*/
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: url('../images/bg.jpg'); 
+}
+.outer {
+  height: 500px;
+  width: 400px;
+  margin: 200px auto;
+  text-align: center;
+  position: relative;
+}
+h4 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: lighter;
+}
+input {
+  outline: none;
+  border: none;
+}
+.username {
+  position: relative;
+  margin-top: 100px;
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  background: #ccf;
+  border: 2px solid #e8e8e8;
+  padding: 10px 20px 15px 70px;
+}
+.username:hover {
+  border: 2px solid #3fc;
+}
+.password {
+  position: relative;
+  margin-top: 40px;
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  background: #ccf;
+  border: 2px solid #e8e8e8;
+  padding: 10px 20px 15px 70px;
+}
+.password:hover {
+  border: 2px solid #3fc;
+}
+.login {
+  margin-top: 15px;
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  line-height: 60px;
+  background: #fff;
+  color: #399;
+}
+.outer .iconfont {
+  font-size: 40px;
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  color: #fff;
+}
+.outer input {
+  display: block;
+  width: 300px;
+  height: 40px;
+  background: #ffc;
+  font-size: 18px;
+}
+h3 {
+ margin-top: 80px;
+  color: #fff;
+  font-size: 20px;
+  padding-right: 30px;
+  text-align: right;
+  font-weight: lighter;
+}
+
